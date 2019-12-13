@@ -1,0 +1,61 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  height: 1000px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+nav {
+  z-index: 10;
+  position: relative;
+}
+main {
+  flex: 1 0 auto;
+}
+#polimer-logo{
+  width: 5rem;
+}
+.sidenav-overlay {
+    z-index: 11;
+}
+.phone {
+  color: #fff;
+  list-style-type: none;
+}
+/* table */
+/* table {
+  font-size: 12px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  color: #333333;
+  border-width: 1px;
+  border-color: #9dcc7a;
+  border-collapse: collapse;
+}
+
+table th:first-child tr {
+  background-color: #b7e396;
+}
+
+table tr {
+  background: #f4f4f4;
+}
+
+table td {
+  font-size: 12px;
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #9dcc7a;
+}
+
+table th,
+table td {
+  text-align: center;
+}
+
+table tr:hover {
+  background: #e8f6de;
+} */
+/* table */
